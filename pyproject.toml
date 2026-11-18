@@ -1,0 +1,18 @@
+[project]
+name = "mlops-learning"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "fionn"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dvc (>=3.67.1,<4.0.0)",
+    "dvc-s3 (>=3.3.0,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
